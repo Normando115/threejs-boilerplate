@@ -8,7 +8,8 @@ body {
   margin: auto;
   display: block;
   padding: 20px;
-  background: url(
+background: #0865cf;
+/*background: url(
 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAMklEQVQYV2N8dvrxfwYk8Oz0EwZGZEGQgJSpDEIQJgDSBFYJE4CrPDPt+H+QFhgASQAAS1MjDyLYWWEAAAAASUVORK5CYII=
     )repeat;
 }
@@ -20,7 +21,7 @@ canvas {
   height: 100%;
   margin: auto;
   max-width: 800px;
-  border: 3px solid #6E2E99;
+  border: 3px solid #c90076;
   border-radius: 3px;
 }
 
@@ -32,7 +33,7 @@ canvas {
 
 h1 {
   font-style: bold;
-  color: #2E9939;
+  color: #61df35;
   max-width: 75%;
   text-align: center;
   margin: auto;
@@ -40,7 +41,7 @@ h1 {
 }
 
 h2 {
-  color: #2E5999;
+  color: #27d572;
   max-width: 75%;
   text-align: center;
   margin: auto;
@@ -64,5 +65,5 @@ p.mid {
 }
 
 a {
-  color: #735223;
+  color: #FF0000;
 }
