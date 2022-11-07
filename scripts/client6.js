@@ -63,7 +63,7 @@ function init() {
 
   // Load preanimated model, add material, and add it to the scene
   const loader = new GLTFLoader().load(
-    "../../assets/blend_def_ani.glb",
+    "../../assets/gorilla.glb",
     function(gltf) {
       gltf.scene.traverse(function(child) {
         if (child.isMesh) {
@@ -72,7 +72,7 @@ function init() {
       });
       // set position and scale
       mesh = gltf.scene;
-      mesh.position.set(4, 0, 0);
+      mesh.position.set(4, 0, -30);
       mesh.rotation.set(0, 0, 0);
       mesh.scale.set(1, 1, 1);
       // Add model to scene
@@ -97,7 +97,7 @@ function init() {
 
   // Load static model, add material, and add it to the scene
   const loader2 = new GLTFLoader().load(
-    "../../assets/blend_def.glb",
+    "../../assets/gorilla.glb",
     function(gltf) {
       // Scan loaded model for mesh and apply defined material if mesh is present
       gltf.scene.traverse(function(child) {
@@ -109,7 +109,7 @@ function init() {
       mesh2 = gltf.scene;
       mesh2.position.set(-4, 0, 0);
       mesh2.rotation.set(0, 0, 0);
-      mesh2.scale.set(1, 1, 1);
+      mesh2.scale.set(.1, .1, .1);
       // Add model to scene
       scene.add(mesh2);
 
